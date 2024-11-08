@@ -314,7 +314,9 @@ export default function Home() {
       <span className="animate-spin mr-3">
         <Loader2Icon className="size-4" />
       </span>
-      Loading ffmpeg-core...
+      <span>
+        Loading ffmpeg-core... <span className="text-gray-500 opacity-0 animate-[fadeIn_3s_ease-in-out_forwards]">This may take a while...</span>
+      </span>
     </div>
   )
 }
